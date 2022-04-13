@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E4954422805652800895863 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4954412805652800895863 /* AppDelegate.m */; };
+		2E4954452805652800895863 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4954442805652800895863 /* SceneDelegate.m */; };
+		2E4954482805652800895863 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4954472805652800895863 /* ViewController.m */; };
+		2E49544B2805652800895863 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E4954492805652800895863 /* Main.storyboard */; };
+		2E49544D2805652B00895863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E49544C2805652B00895863 /* Assets.xcassets */; };
+		2E4954502805652B00895863 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E49544E2805652B00895863 /* LaunchScreen.storyboard */; };
+		2E4954532805652B00895863 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4954522805652B00895863 /* main.m */; };
+		2E49545F28057D0C00895863 /* QXCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E49545E28057D0C00895863 /* QXCamera.m */; };
+		2E4954622805852300895863 /* QXPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4954612805852300895863 /* QXPreviewView.m */; };
+		2E495465280678D300895863 /* QXOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E495464280678D300895863 /* QXOverlayView.m */; };
+		2E4954682806B1AF00895863 /* QXCaptureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4954672806B1AF00895863 /* QXCaptureView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E49543D2805652800895863 /* AVFoundation-capture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AVFoundation-capture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E4954402805652800895863 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E4954412805652800895863 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E4954432805652800895863 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		2E4954442805652800895863 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		2E4954462805652800895863 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2E4954472805652800895863 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2E49544A2805652800895863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E49544C2805652B00895863 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E49544F2805652B00895863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E4954512805652B00895863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E4954522805652B00895863 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E49545D28057D0C00895863 /* QXCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QXCamera.h; sourceTree = "<group>"; };
+		2E49545E28057D0C00895863 /* QXCamera.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QXCamera.m; sourceTree = "<group>"; };
+		2E4954602805852300895863 /* QXPreviewView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QXPreviewView.h; sourceTree = "<group>"; };
+		2E4954612805852300895863 /* QXPreviewView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QXPreviewView.m; sourceTree = "<group>"; };
+		2E495463280678D300895863 /* QXOverlayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QXOverlayView.h; sourceTree = "<group>"; };
+		2E495464280678D300895863 /* QXOverlayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QXOverlayView.m; sourceTree = "<group>"; };
+		2E4954662806B1AF00895863 /* QXCaptureView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QXCaptureView.h; sourceTree = "<group>"; };
+		2E4954672806B1AF00895863 /* QXCaptureView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QXCaptureView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E49543A2805652800895863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E4954342805652800895863 = {
+			isa = PBXGroup;
+			children = (
+				2E49543F2805652800895863 /* AVFoundation-capture */,
+				2E49543E2805652800895863 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E49543E2805652800895863 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E49543D2805652800895863 /* AVFoundation-capture.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E49543F2805652800895863 /* AVFoundation-capture */ = {
+			isa = PBXGroup;
+			children = (
+				2E4954402805652800895863 /* AppDelegate.h */,
+				2E4954412805652800895863 /* AppDelegate.m */,
+				2E4954432805652800895863 /* SceneDelegate.h */,
+				2E4954442805652800895863 /* SceneDelegate.m */,
+				2E49545B28057CBE00895863 /* Controller */,
+				2E49545928057CBE00895863 /* Model */,
+				2E49545C28057CBE00895863 /* Resource */,
+				2E49545A28057CBE00895863 /* View */,
+				2E4954492805652800895863 /* Main.storyboard */,
+				2E49544C2805652B00895863 /* Assets.xcassets */,
+				2E49544E2805652B00895863 /* LaunchScreen.storyboard */,
+				2E4954512805652B00895863 /* Info.plist */,
+				2E4954522805652B00895863 /* main.m */,
+			);
+			path = "AVFoundation-capture";
+			sourceTree = "<group>";
+		};
+		2E49545928057CBE00895863 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E49545D28057D0C00895863 /* QXCamera.h */,
+				2E49545E28057D0C00895863 /* QXCamera.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2E49545A28057CBE00895863 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2E4954602805852300895863 /* QXPreviewView.h */,
+				2E4954612805852300895863 /* QXPreviewView.m */,
+				2E495463280678D300895863 /* QXOverlayView.h */,
+				2E495464280678D300895863 /* QXOverlayView.m */,
+				2E4954662806B1AF00895863 /* QXCaptureView.h */,
+				2E4954672806B1AF00895863 /* QXCaptureView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2E49545B28057CBE00895863 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2E4954462805652800895863 /* ViewController.h */,
+				2E4954472805652800895863 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2E49545C28057CBE00895863 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E49543C2805652800895863 /* AVFoundation-capture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E4954562805652B00895863 /* Build configuration list for PBXNativeTarget "AVFoundation-capture" */;
+			buildPhases = (
+				2E4954392805652800895863 /* Sources */,
+				2E49543A2805652800895863 /* Frameworks */,
+				2E49543B2805652800895863 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AVFoundation-capture";
+			productName = "AVFoundation-capture";
+			productReference = 2E49543D2805652800895863 /* AVFoundation-capture.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E4954352805652800895863 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					2E49543C2805652800895863 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 2E4954382805652800895863 /* Build configuration list for PBXProject "AVFoundation-capture" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E4954342805652800895863;
+			productRefGroup = 2E49543E2805652800895863 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E49543C2805652800895863 /* AVFoundation-capture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E49543B2805652800895863 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E4954502805652B00895863 /* LaunchScreen.storyboard in Resources */,
+				2E49544D2805652B00895863 /* Assets.xcassets in Resources */,
+				2E49544B2805652800895863 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E4954392805652800895863 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E4954482805652800895863 /* ViewController.m in Sources */,
+				2E495465280678D300895863 /* QXOverlayView.m in Sources */,
+				2E4954682806B1AF00895863 /* QXCaptureView.m in Sources */,
+				2E4954422805652800895863 /* AppDelegate.m in Sources */,
+				2E4954532805652B00895863 /* main.m in Sources */,
+				2E49545F28057D0C00895863 /* QXCamera.m in Sources */,
+				2E4954622805852300895863 /* QXPreviewView.m in Sources */,
+				2E4954452805652800895863 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E4954492805652800895863 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E49544A2805652800895863 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E49544E2805652B00895863 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E49544F2805652B00895863 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E4954542805652B00895863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2E4954552805652B00895863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E4954572805652B00895863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LFBNK37362;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AVFoundation-capture/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kungeek.FtspiOSClientForCRM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E4954582805652B00895863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LFBNK37362;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AVFoundation-capture/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kungeek.FtspiOSClientForCRM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E4954382805652800895863 /* Build configuration list for PBXProject "AVFoundation-capture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E4954542805652B00895863 /* Debug */,
+				2E4954552805652B00895863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E4954562805652B00895863 /* Build configuration list for PBXNativeTarget "AVFoundation-capture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E4954572805652B00895863 /* Debug */,
+				2E4954582805652B00895863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E4954352805652800895863 /* Project object */;
+}
